@@ -3,7 +3,7 @@
 body {
   height: 100vh;
   margin: 0;
-  overflow: hidden;
+  
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
@@ -12,15 +12,17 @@ body {
 .header {
    display: flex;
    justify-content: space-between;
-   background: #666;
-   padding: 0 150px;
-   color: white;
+   background: #1f2937;
+   padding: 0 200px;
+   color: #f9faf8;
    font-weight: bold;
    margin: 0;
 }
 
 .left-items {
     align-self: center;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 ul {
@@ -37,7 +39,117 @@ a {
 }
 
 .section-one {
-    background: #666;
+    background: #1f2937;
     display: flex;
-    padding: 0 150px;
+    padding: 100px 200px;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.section-two {
+    padding: 100px 200px;
+
+}
+
+.section-two h2 {
+    font-size: 32px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+
+p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+
+.content {
+    padding-right: 25px;
+}
+
+.boxes  {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boximg p {
+    color: #1f2937;
+    text-align: center;
+}
+
+.boxes img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.section-three {
+    background-color: #e5e7eb;
+    padding: 100px 200px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.quote p {
+    color: #1f2937;
+    font-style: italic;
+}
+.ghandi {
+    align-self: flex-end;
+}
+.ghandi p {
+    color: #1f2937;
+    font-weight: bold;
+}
+
+.section-four {
+    padding: 100px 200px;
+}
+
+.calltoaction {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    gap: 1px;
+}
+
+.calltext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 80%;
+}
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 20px;
+}
+
+#callbold {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.calltoaction button {
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: none;
 }
